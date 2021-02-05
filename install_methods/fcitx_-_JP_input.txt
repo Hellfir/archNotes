@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-29T01:17:10+00:00
+
+====== fcitx - JP input ======
+Created Friday 29 January 2021
+
+	$ sudo pacman -S fcitx-im
+	$ sudo pacman -S fcitx-configtool fcitx-mozc
+add the following to /etc/environment
+	QT_IM_MODULE=fcitx
+	XMODIFIERS=@im=fcitx
+	GTK_IM_MODULE=fcitx
+add the following to sway config (preferably near the top)
+	exec fcitx
+restart sway, then run fcitx, fcitx-configtool, add new language, choose mozc.

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-02T23:07:27+00:00
+
+====== fonts ======
+Created Tuesday 02 February 2021
+
+ttf-vlgothic
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+terminus-font
+ttf-dejavu
+ttf-hack

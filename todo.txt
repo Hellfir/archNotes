@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+**FIX**
+OBS fix
+virtualbox fullscreen is black fix
+fcitx candidate window fix
+
+**INSTALL**
+install games
+install discord?
+cemu
+switch emulation
+
+**CONFIGURE**
+config fonts
+check $menu setting in sway properly
+config git keys or something
+webcam turn off light
+steam friends list open floating or reduced size
+update msi bios to reduce post time?
+
+**LEARN**
+auto mounting
+reflector use
+automation?
+remap macro keys
+make keyboard light up
+mouse remapability
+check podman instead of docker
+mp3tag
+netgear switch control
+
+
+
+
+
+

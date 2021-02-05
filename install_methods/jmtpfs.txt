@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-27T12:53:44+00:00
+
+====== jmtpfs ======
+Created Wednesday 27 January 2021
+
+	$ yay jmtpfs
+used to mount android to folder with
+	$ jmtpfs [mountpoint]
+unmount with
+	$fusermount -u [mountpoint]
+	

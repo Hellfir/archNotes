@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:27:14+00:00
+
+====== Later setup ======
+Created Thursday 04 February 2021
+
+Create a non-root user
+	$ useradd -m [name]
+	$ passwd [name]
+Enable sudo:
+	$ pacman -Sy sudo
+	$ EDITOR=nano visudo
+	add the following lines:
+		[name] ALL=(ALL) ALL
+		Defaults:[name] !authenticate
+	(the first allows sudo to be used, the latter allows it to be used without a password)
+	
+From here, log out of root and back into the new user account, since we can do the rest as that.
+
+Edit bash:
+	see "Editing Bash" note for preferred PS1 setting in .bashrc
+	$ nano .bashrc
+	on laptop, add power function
+		$pacman -Sy acpi
+		can edit .bash_profile to do it on startup
+	
+change backlight
+	sudo pacman -S acpilight
+		sudo xbacklight -inc 5
+			increases by 5% brightness
+		sudo xbacklight -dec 5
+			opposite of above
+

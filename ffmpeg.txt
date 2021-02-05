@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-29T17:38:01+00:00
+
+====== ffmpeg ======
+Created Friday 29 January 2021
+
+cutting up videos:
+base command is 
+	$ ffmpeg -i [input file] [output file]
+adding flags before -i makes them input flags, putting between input and output makes them output flags
+
+-ss seeks to timestamp before starting
+-t limits time to X seconds (as input reads only X seconds, as output only outputs X seconds)
+
+eg
+	$ ffmpeg -ss 30 -i [input] -t 20 [output]
+will seek to 30 seconds into input, then stream 20 seconds to output before stopping
+resulting in a 20 second video composed of the input from 30 seconds onwards.
+

@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+citra
+citra-qt
+cmatrix
+feh
+firefox
+git
+htop
+mpv
+mtpaint
+nvim
+pacman
+pavucontrol
+python
+retroarch
+scrcpy
+slippi-online
+ssh
+steam
+sxiv
+yay
+zim

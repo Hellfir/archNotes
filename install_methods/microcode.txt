@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-18T22:01:44+00:00
+
+====== microcode ======
+Created Monday 18 January 2021
+
+amd-ucode or intel-ucode
+run grub-mkconfig -o /boot/grub/grub.cfg afterwards

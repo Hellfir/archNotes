@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-30T23:41:37+00:00
+
+====== screen capture ======
+Created Saturday 30 January 2021
+
+	$ sudo pacman -S grim slurp wf-recorder
+	
+export $GRIM_DEFAULT_DIR in .bashrc to set default screenshot save location
+grim saves screenshot to default location, unless filepath specified at end of command
+slurp allows to select a location on screen, and outputs coordinates/size.
+
+so
+	$ grim
+just saves full screen screenshot and
+	$ grim -g "$(slurp)"
+selects a location and saves that small chunk
+
+	$ wf-recorder
+will just start recording the whole screen as an mp4
+similarly,
+	$ wf-recorder -g "$(slurp)"
+will record only a certain section of the screen
+
+note that recorder has no default save location
+

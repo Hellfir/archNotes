@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T16:55:02+00:00
+
+====== MPD ======
+Created Thursday 04 February 2021
+
+sudo apt-get install mpd
+sudo nano /etc/mpd.conf
+
+change settings:
+	music directory to folder in NAS folders
+	user to pi
+	(add pi to audio group)
+	bind to address -> pi IP:port (I used 9950
+	
+https://community.openhab.org/t/centralized-multi-room-audio-setup-with-mpd-and-spotify-integration/90890
+^ potential uses, inc. sync with spotify

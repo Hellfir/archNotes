@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T16:54:57+00:00
+
+====== Pi settings ======
+Created Thursday 04 February 2021
+

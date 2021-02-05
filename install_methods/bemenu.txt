@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T02:16:02+00:00
+
+====== bemenu ======
+Created Sunday 31 January 2021
+
+wayland specific launcher application
+	$ sudo pacman -S bemenu
+set $menu in sway config to bemenu-run
+

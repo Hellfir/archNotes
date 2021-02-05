@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-16T17:57:05+00:00
+
+====== scrcpy ======
+Created Saturday 16 January 2021
+
+install:
+android-tools
+android-udev
+
+after installing, do
+	$ sudo udevadm control --reload-rules
+add user to adbusers usergroup
+check android phone has given debug permissions to machine
+	$ scrcpy
+or
+	$ scrcpy -m 1280 (limits resolution)
+

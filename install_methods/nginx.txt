@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:27:34+00:00
+
+====== nginx ======
+Created Thursday 04 February 2021
+
+$ sudo pacman -S nginx php-fpm
+
+$ sudo netctl start nginx php-fpm
+to start the webserver
+
+localhost to view in browser on same machine, machine's local IP to view from others.
+config in /etc/nginx/nginx.conf
+	can edit index page location here, along with error page location
+default webpage is in /usr/share/nginx
+

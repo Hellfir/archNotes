@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:26:17+00:00
+
+====== Audio ======
+Created Thursday 04 February 2021
+
+$ sudo pacman -S pulseaudio pavucontrol alsa
+
+$ pavucontrol to bring up controls
+
+possibility in sway config:
+	bindsym $mod+[key] exec pavucontrol	
+	
+$ pactl set-sink-mute 0 toggle
+	mutes/unmutes soundcard 0
+$ pactl set-sink-volume 0 +/-X%
+	changes volume. can set directly (omit +/-), or can change relative to current. can be specificed as %, dB, or others.
+

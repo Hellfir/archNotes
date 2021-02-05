@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:26:45+00:00
+
+====== Graphics ======
+Created Thursday 04 February 2021
+
+$ sudo pacman -S sway xorg-server-xwayland termite
+	wayland window manager
+	+ ability to run X programs under Wayland
+	termite is the terminal emulator
+		(used to use xterm, it just holds the shell eg zsh/bash)
+		
+
+
+

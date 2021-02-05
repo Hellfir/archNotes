@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:26:57+00:00
+
+====== Grim ======
+Created Thursday 04 February 2021
+
+display capturer
+$sudo pacman -S grim
+
+$ grim -g x,y dimXxdimY 
+	to screenshot only certain points

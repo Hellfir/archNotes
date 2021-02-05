@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-31T01:33:06+00:00
+
+====== clipboard ======
+Created Sunday 31 January 2021
+
+	$ sudo pacman -S wl-clipboard
+note for grim -> clipboard 
+	$ grim - | wl-copy
+where - is output file
+
+weird clipboard history command:
+	$ wl-paste -w wl-paste » history.file
+

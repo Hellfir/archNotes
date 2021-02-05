@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-19T00:05:23+00:00
+
+====== 3ds stuff ======
+Created Tuesday 19 January 2021
+
+	$ yay ninfs
+requires boot9.bin in 3ds folder to work
+allows mounting of .cia, .3ds files amongst others
+
+save files located in:
+	.config/retroarch/saves/Citra/sdmc/nin3ds/0s/0s/title/00040000/[gameID]
+	.local/share/citra_emu/sdmc/..(same as above)
+	
+Pokemon X crashes in retroarch core after char creation, has no BGM. playable with already created savefile.
+
+generally unneeded

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-19T21:01:56+00:00
+
+====== Citra ======
+Created Tuesday 19 January 2021
+
+	$ yay citra-qt-bin
+	$ citra-qt
+done.
+
+save file located in:
+	.local/share/citra_emu/sdmc/nin3ds/0s/0s/title/00040000/[gameID]
+	
+if playing randomized pokemon roms, remember to move save file
+
+

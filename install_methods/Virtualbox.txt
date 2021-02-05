@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-29T20:03:07+00:00
+
+====== Virtualbox ======
+Created Friday 29 January 2021
+
+https://linuxhint.com/install-virtualbox-arch-linux/
+https://www.virtualbox.org/ticket/8473?cversion=0
+ensure bios settings allow for virtualization
+
+packages to install:
+	linux-headers
+	virtualbox
+	virtualbox-host-modules-arch
+
+reboot after installation
+
+Download extpack file from website
+run the following command if can't install extension through GUI
+	$ sudo VBoxManage extpack install --replace [downloaded extpack file]
+
+make sure to change storage location to where is wanted
+add self to vboxusers group
+
+inside of windows vm, install guest additions cd image - will download if not already available

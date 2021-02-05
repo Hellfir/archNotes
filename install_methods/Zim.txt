@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:27:59+00:00
+
+====== Zim ======
+Created Thursday 04 February 2021
+
+$ sudo pacman -S zim
+
+Graphical version works as it does on windows
+headless, all notes are .txt files
+sub pages are made in folders sharing the same name as the page they're below
+
+to run the local server do 
+	$ zim --server [notebook name]
+	can also add --port [port]

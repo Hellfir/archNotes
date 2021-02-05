@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T17:02:32+00:00
+
+====== MPC ======
+Created Thursday 04 February 2021
+
+sudo pacman -S mpc
+
+mpc --host=192.168.1.190 -p 9950
+	for pi with port 9950 (see pi settings for mpd)
+	
+"" ... ls 
+	to see all files
+
+... add /
+	to add all music
+	
+... play
+	to play
+	

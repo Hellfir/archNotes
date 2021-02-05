@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:27:46+00:00
+
+====== transmission ======
+Created Thursday 04 February 2021
+
+$ sudo pacman -S transmission-cli
+$ transmission-daemon
+	starts the daemon
+$ transmission-remote -a [torrent file/url]
+	adds
+-S stops
+-d sets downlimit
+-l lists all current torrents
+-t [ID#] to select a torrent - use in conjunction with other flags (eg "-t 1 -S" to stop torrent ID#1)
+
+$ transmission-remote --exit

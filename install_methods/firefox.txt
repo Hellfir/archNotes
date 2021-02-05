@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-29T01:18:05+00:00
+
+====== firefox ======
+Created Friday 29 January 2021
+
+	$ sudo pacman -S firefox
+add the following to /etc/environment if using wayland:
+	MOZ_ENABLE_WAYLAND=1
+	

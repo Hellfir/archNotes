@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-26T17:59:20+00:00
+
+====== NetworkManager ======
+Created Tuesday 26 January 2021
+
+	$ sudo pacman -S networkmanager nm-connection-editor
+	$ sudo systemctl enable NetworkManager.service
+	$ sudo NetworkManager
+	$ nmcli wifi list
+	$ nmcli wifi connect [ssid] password [pass] name [name]

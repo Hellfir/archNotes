@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-04T15:26:31+00:00
+
+====== Git ======
+Created Thursday 04 February 2021
+
+Separate from github - although they can interface
+It's just version control, done locally.
+github is an online store, sort of cloud storage for code?
+
+$ sudo pacman -S git
+$ git config --global user.email [email](agall)
+$ git config --global user.name hellfire
+$ git init [repo name]
+$ git add [file name]
+	adds file to staging, prep to be comitted
+$git commit
+	finalizes changes
+	add -m "message" for commit reasons
+	
+$ git remote add origin [url]
+	tells git where push should upload to
+$ git push --set-upstream origin master
+	for first push
+	
+$git push
+	pushes to github
+
+git repo = regular directory with a .git folder
+	.git holds remote configs, history etc for the repo
+	
+$ git config credential.https://github.com.username Hellfir
+	remembers username. only doable in git folders. Can be set to be static in git config.
+

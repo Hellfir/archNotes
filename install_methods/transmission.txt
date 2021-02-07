@@ -16,3 +16,11 @@ $ transmission-remote -a [torrent file/url]
 -t [ID#] to select a torrent - use in conjunction with other flags (eg "-t 1 -S" to stop torrent ID#1)
 
 $ transmission-remote --exit
+
+to add magnet links to transmission:
+make an executable file with
+	#!/usr/bin/env bash
+	transmission-remote [ip] -a $@
+	
+currently in bashbin github.
+

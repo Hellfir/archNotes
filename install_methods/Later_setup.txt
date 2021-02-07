@@ -24,11 +24,19 @@ Edit bash:
 	on laptop, add power function
 		$pacman -Sy acpi
 		can edit .bash_profile to do it on startup
-	
-change backlight
-	sudo pacman -S acpilight
-		sudo xbacklight -inc 5
-			increases by 5% brightness
-		sudo xbacklight -dec 5
-			opposite of above
+
+proceed to git	
+proceed to yay
+
+clone dotfiles
+install pkgs mentioned
+
+also to do:
+fcitx-jp input
+smbclient
+transmission
+udisks2
+
+
+
 

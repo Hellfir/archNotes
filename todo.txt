@@ -14,8 +14,7 @@ switch emulation
 
 **CONFIGURE**
 config fonts
-check $menu setting in sway properly
-config git keys or something
+config git ssh keys or something
 webcam turn off light
 steam friends list open floating or reduced size
 update msi bios to reduce post time?

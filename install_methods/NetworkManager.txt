@@ -7,6 +7,7 @@ Created Tuesday 26 January 2021
 
 	$ sudo pacman -S networkmanager nm-connection-editor
 	$ sudo systemctl enable NetworkManager.service
+	
 	$ sudo NetworkManager
 	$ nmcli wifi list
 	$ nmcli wifi connect [ssid] password [pass] name [name]

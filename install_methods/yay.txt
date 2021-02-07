@@ -5,6 +5,9 @@ Creation-Date: 2021-01-16T18:33:34+00:00
 ====== yay ======
 Created Saturday 16 January 2021
 
-follow instructions at https://github.com/Jguer/yay
-tldr git clone repo
-makepkg -si inside repo
+pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si 
+
+modify color option in /etc/pacman.conf

@@ -19,6 +19,8 @@ $git commit
 	finalizes changes
 	add -m "message" for commit reasons
 	
+create a repo on github at this point, get url
+
 $ git remote add origin [url]
 	tells git where push should upload to
 $ git push --set-upstream origin master

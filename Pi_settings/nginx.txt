@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-16T18:55:21+00:00
+
+====== nginx ======
+Created Tuesday 16 February 2021
+
+To change root index page location, edit /etc/nginx/sites-available/default
+change the line starting with root and modify the filepath to the filepath of the wanted index page

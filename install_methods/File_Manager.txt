@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-13T20:52:02+00:00
+
+====== File Manager ======
+Created Saturday 13 February 2021
+
+packages:
+	pcmanfm-qt
+	breeze-icons
+	ffmpegthumbnailer
+	
+Install pcmanfm-qt last, default settings require breeze-icons
+
+Useful for browsing directories full of images and videos
+

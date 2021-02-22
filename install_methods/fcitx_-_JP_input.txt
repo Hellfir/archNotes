@@ -11,6 +11,10 @@ add the following to /etc/environment
 	QT_IM_MODULE=fcitx
 	XMODIFIERS=@im=fcitx
 	GTK_IM_MODULE=fcitx
+	XDG_CURRENT_DESKTOP="sway:GNOME:Unity"
+		or =sway
+		unsure
+		this is for tray icon
 add the following to sway config (preferably near the top)
 	exec fcitx
 restart sway, then run fcitx, fcitx-configtool, add new language, choose mozc.

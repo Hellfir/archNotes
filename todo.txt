@@ -11,6 +11,7 @@ install games
 install discord?
 cemu
 switch emulation
+ppsspp - psp emu
 
 **CONFIGURE**
 config fonts
@@ -28,7 +29,12 @@ make keyboard light up
 mouse remapability
 check podman instead of docker
 mp3tag
+	see audio tag editors under list of applications on wiki
 netgear switch control
+
+extensive $ man use
+systemd
+ffmpeg uses
 
 
 

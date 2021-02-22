@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-20T16:58:13+00:00
+
+====== ripgrep ======
+Created Saturday 20 February 2021
+
+pacman -S ripgrep
+
+better grep
+
+uses $ rg for command

@@ -18,3 +18,7 @@ eg
 will seek to 30 seconds into input, then stream 20 seconds to output before stopping
 resulting in a 20 second video composed of the input from 30 seconds onwards.
 
+$ ffplay [file]
+plays a file :o
+kinda like MPV but no on-screen controls.
+can seek by clicking across the window (ie clicking left side seeks 00:00, right side is end of file)

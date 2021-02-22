@@ -37,7 +37,7 @@ Mount the new root:
 	$ mount /dev/sda1 /mnt 
 		(sda1 is the partition with the file system)
 Install the base package onto the new root:
-	$ pacstrap /mnt base linux linux-firmware networkmanager wpa_supplicant neovim
+	$ pacstrap /mnt base linux linux-firmware networkmanager wpa_supplicant neovimsl
 		Can install other software now by appending package names here, alternately, install any time forwards when using pacman
 Fstab file:
 	$ genfstab -U /mnt >> /mnt/etc/fstab

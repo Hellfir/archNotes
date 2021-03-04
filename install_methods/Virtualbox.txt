@@ -24,3 +24,6 @@ make sure to change storage location to where is wanted
 add self to vboxusers group
 
 inside of windows vm, install guest additions cd image - will download if not already available
+
+VBoxManage and VBoxHeadless can be used to start VMs without loading windows for viewing
+	ie load the arch VM without needing to look at it/just SSH in

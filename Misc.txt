@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-26T23:17:32+00:00
+
+====== Misc ======
+Created Friday 26 February 2021
+
+note when mounting
+	options uid,gid are not for linux FSes. Don't try using them.

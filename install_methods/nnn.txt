@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-04T12:06:53+00:00
+
+====== nnn ======
+Created Thursday 04 March 2021
+
+terminal-based file manager
+run:
+	curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs | sh
+to get plugins
+add the following environment variables:
+	export NNN_PLUG='p:preview-tui;'
+	export NNN_FIFO=/tmp/nnn.fifo
+the first sets keybinds for plugins
+	eg ';p' will enable preview-tui
+	you can add more on after each one; the semi colon is a seperator
+the second sets the window preview-tui uses to show previews in kitty
+
+if used in kitty:
+	install 'imagemagick' pkg
+	copy /usr/share/doc/kitty/kitty.conf to .config/kitty 
+	change 'allow_remote_control' to yes
+	
+can use ;[enter] to run plugins not started at launch without assigned keys
+

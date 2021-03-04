@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-04T00:12:04+00:00
+
+====== Ranger ======
+Created Thursday 04 March 2021
+
+pkgs:
+	ranger
+	w3m (if trying to make img previews work in termite)
+	kitty (terminal emulator)
+	python-pillow (allows kitty to show image previews)
+	
+cool CLI file manager
+

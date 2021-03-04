@@ -6,3 +6,8 @@ Creation-Date: 2021-01-29T12:29:59+00:00
 Created Friday 29 January 2021
 
 swaymsg -t get_tree to get window/app ids for things running
+
+to change graphics tablet setup:
+swaymsg -t get_inputs to get tablet input name
+add curly braces in input section with that name
+set map_to_output [output name]

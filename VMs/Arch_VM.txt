@@ -9,3 +9,10 @@ root/password
 archvm/password
 
 installed apache webserver 
+
+nmcli manual settings:
+	change ipv4.address to 192.168.1.number/24
+	change ipv4.method to manual
+	change ipv4.gateway to 192.168.1.1
+	change ipv4.dns to 8.8.8.8
+

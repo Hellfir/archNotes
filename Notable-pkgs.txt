@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-02T14:44:25+00:00
+
+====== Notable-pkgs ======
+Created Tuesday 02 March 2021
+
+Ranger - 
+	CLI-based file manager, uses vim-like shortcuts. Couldn't get it showing image previews though since that only works in certain terminals :(

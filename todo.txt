@@ -2,7 +2,6 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 
 **FIX**
-OBS fix
 virtualbox fullscreen is black fix
 fcitx candidate window fix
 
@@ -36,8 +35,8 @@ extensive $ man use
 systemd
 ffmpeg uses
 
-
-
-
+modify CV template page to use JS to load content in main div instead of changing pages constantly
+see raehik.github.io repo for template usage
+	this thing uses a jekyll run - server side service that takes pages with script inside them and uses that script to build pages from templates and snippets
 
 

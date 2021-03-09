@@ -37,6 +37,20 @@ smbclient
 transmission
 udisks2
 
+Symlinks/folders to make:
+	gitRepos
+	nas
+		android, misc, torrent
+	
+	bin -> gitrepos/bashbin
+	stuff -> mounted drives
+		files -> file drive root
+		.steamGames -> ssd root
+		images -> files/pictures
+	mount -> /run/media/angus
+		for udisks2
+
+
 
 
 

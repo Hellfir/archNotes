@@ -12,4 +12,9 @@ pkgs:
 	python-pillow (allows kitty to show image previews)
 	
 cool CLI file manager
+do
+	$ ranger --copy-config=all
+to get files into .config dir
+ then modify rc.conf to have previewer set to kitty, and image previews as true
+modify scope.sh to uncomment video/pdf image previews as well (and recomment pdf text preview)
 

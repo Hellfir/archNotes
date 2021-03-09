@@ -15,7 +15,6 @@ ppsspp - psp emu
 **CONFIGURE**
 config fonts
 config git ssh keys or something
-webcam turn off light
 steam friends list open floating or reduced size
 update msi bios to reduce post time?
 
@@ -29,14 +28,17 @@ mouse remapability
 check podman instead of docker
 mp3tag
 	see audio tag editors under list of applications on wiki
-netgear switch control
-
 extensive $ man use
 systemd
 ffmpeg uses
 
+look into systemd-boot and pipewire
+look into qemu and virt-manager pkgs over virtualbox
+	probably qemu - can use qemu-img to convert existing VMs from vbox
+neomutt - emails
+micro - text editor?
+
 modify CV template page to use JS to load content in main div instead of changing pages constantly
 see raehik.github.io repo for template usage
 	this thing uses a jekyll run - server side service that takes pages with script inside them and uses that script to build pages from templates and snippets
-
 

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-23T20:40:29+00:00
+
+====== Systemd ======
+Created Tuesday 23 February 2021
+
+systemctl enable [servicename]
+	allows for services to start at boot
+systemctl start [servicename.service]
+	only starts it for that session
+	

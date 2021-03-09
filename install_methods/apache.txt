@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-23T21:20:07+00:00
+
+====== apache ======
+Created Tuesday 23 February 2021
+
+install with 
+	pacman -S apache
+service is called httpd
+	one time enable
+		systemctl start httpd
+	on boot
+		systemctl enable httpd
+note that enabling on boot doesn't start service
+
+main config file is /etc/httpd/conf/httpd.conf
+initial server root is /srv/http
+	/srv is for data served by system
+	data served for a particular user should be in their home folder
+	
+
+
+
+

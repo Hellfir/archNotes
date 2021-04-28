@@ -5,6 +5,14 @@ Creation-Date: 2021-03-09T01:25:38+00:00
 ====== weechat IRC ======
 Created Tuesday 09 March 2021
 
+hellfir/BucketOfFishes
 pkg name is weechat
 /connect [server]
 /join #[channel]
+
+To set the user and real names:
+
+	 /set irc.server.freenode.username "My user name"
+	 /set irc.server.freenode.realname "My real name"
+
+(means it doesn't show local username on login)

@@ -7,7 +7,6 @@ fcitx candidate window fix
 
 **INSTALL**
 install games
-install discord?
 cemu
 switch emulation
 ppsspp - psp emu
@@ -31,11 +30,12 @@ mp3tag
 extensive $ man use
 systemd
 ffmpeg uses
+pipewire screen capture?
 
-look into systemd-boot and pipewire
+look into systemd-boot 
 look into qemu and virt-manager pkgs over virtualbox
 	probably qemu - can use qemu-img to convert existing VMs from vbox
-neomutt - emails
+	harder to use than vbox - not sure it's worth
 micro - text editor?
 
 modify CV template page to use JS to load content in main div instead of changing pages constantly

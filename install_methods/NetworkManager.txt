@@ -9,5 +9,5 @@ Created Tuesday 26 January 2021
 	$ sudo systemctl enable NetworkManager.service
 	
 	$ sudo NetworkManager
-	$ nmcli wifi list
-	$ nmcli wifi connect [ssid] password [pass] name [name]
+	$ nmcli d wifi list
+	$ nmcli d wifi connect [ssid] password [pass] name [name]

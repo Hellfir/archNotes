@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-15T11:44:09+00:00
+
+====== pacman ======
+Created Monday 15 March 2021
+
+-S to install
+	-Syu refreshes repos, then upgrades all
+-Q outputs installed packages
+	-Qe outputs only explicitly installed pkgs
+-R to remove
+

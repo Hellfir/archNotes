@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-13T00:00:22+00:00
+
+====== Keyboards ======
+Created Saturday 13 March 2021
+
+Keyboard emits scan code
+scan code is interpreted as key code by kernel
+key code is mapped to output by OS
+
+key code mappings are stored in keymap files in /usr/share/kbd/keymaps
+notably, i386/qwerty/ and sun/ dirs
+
+"strings as usual" refers to ancient strings from VT102 - for escape codes and such
+
+In bash:
+	$ bind '"\e[24~":"foobar"'
+	outputs foobar
+	$ bind -x '"\eW":"who"'
+	executes who
+	
+need to find how to add that to a keymap
+
+for mouse: 
+	change profile button is event19
+	all other buttons event18
+	pointer event17
+	in libinput
+	
+	sway inputs has 4 profiles, 2 consumer control 2 normal
+	unsure how corresponds to libinput
+	event19 is a consumer control button
+	
+for keyboard
+	can't find macro keys in libinput
+	
+

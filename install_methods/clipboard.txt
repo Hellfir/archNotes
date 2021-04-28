@@ -11,5 +11,5 @@ note for grim -> clipboard
 where - is output file
 
 weird clipboard history command:
-	$ wl-paste -w wl-paste » history.file
+	$ wl-paste -w wl-paste > > history.file
 

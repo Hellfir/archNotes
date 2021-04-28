@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-03-23T01:35:43+00:00
+
+====== wget ======
+Created Tuesday 23 March 2021
+
+-r 
+	recursive
+	-l [#]
+	depth
+-p 
+	used to get imgs etc
+	

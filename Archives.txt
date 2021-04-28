@@ -8,6 +8,8 @@ Created Monday 18 January 2021
 .Zip use p7zip pkg, 
 	$ 7z x [file]
 	to extract
+	$ 7z x [file] -o* 
+		to extract to same name dir
 
 .rar use unrar pkg,
 	$ unrar e [file]

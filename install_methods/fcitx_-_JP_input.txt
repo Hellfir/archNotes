@@ -22,6 +22,8 @@ in mozc config tool, go to keymap style, choose custom, import MS-IME, add:
 	precomposition + ctrl/tab + set input mode to next kana type
 
 maybe grab fcitx5-im and fcitx5-mozc instead
+
 works in kitty terminal emulator
 candidate box works too
 	add GLFW_IM_MODULE=ibus to environment
+	also needs xorg-xwayland installed for candidate box to show

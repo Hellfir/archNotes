@@ -31,8 +31,17 @@ Disk partitioning:
 	n for new partition
 		probably use default start space, can choose default end for whole disk partition or specify size eg +4G for 4 gigs
 	w when complete
-making filesystem
-	$ mkfs.ext4 /dev/sda1
+	For UEFI boot and separate home folder:
+		use gdisk
+		1GB EFI part (EF00 code)
+			this has to be formatted as FAT32
+				mkfs.fat -F32 /dev/sdXY
+			this part will be mounted to either /efi or /boot
+		50~GB root part
+		rest can be home
+		split as you like
+	making filesystem
+		$ mkfs.ext4 /dev/sda1
 		(replace sda1 with whatever partition you're using)
 Mount the new root:
 	$ mount /dev/sda1 /mnt 
@@ -62,6 +71,7 @@ Network
 		127.0.01 localhost
 		::1		localhost
 		127.0.1.1 [hostname].localdomain [hostname]
+		192.168.1.190 index.pi Pi
 initramfs
 	$ mkinitcpio -P
 root password

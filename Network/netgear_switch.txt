@@ -6,4 +6,5 @@ Creation-Date: 2021-03-07T14:17:43+00:00
 Created Sunday 07 March 2021
 
 ip is 192.168.1.189
+(should be 201 due to static lease on router?)
 password is password

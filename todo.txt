@@ -13,12 +13,10 @@ ppsspp - psp emu
 
 **CONFIGURE**
 config fonts
-config git ssh keys or something
 steam friends list open floating or reduced size
 update msi bios to reduce post time?
 
 **LEARN**
-auto mounting
 reflector use
 automation?
 remap macro keys
@@ -32,7 +30,6 @@ systemd
 ffmpeg uses
 pipewire screen capture?
 
-look into systemd-boot 
 look into qemu and virt-manager pkgs over virtualbox
 	probably qemu - can use qemu-img to convert existing VMs from vbox
 	harder to use than vbox - not sure it's worth

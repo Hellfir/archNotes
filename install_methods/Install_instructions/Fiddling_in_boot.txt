@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-02T22:12:53+01:00
+
+====== Fiddling in boot ======
+Created Sunday 02 May 2021
+
+e2label is needed on the root part for the arch.conf given on the wiki page for systemd-boot
+
+	For UEFI boot and separate home folder:
+		use gdisk
+		1GB EFI part (EF00 code)
+			this has to be formatted as FAT32
+				mkfs.fat -F32 /dev/sdXY
+			this part will be mounted to either /efi or /boot
+		50~GB root part
+		rest can be home
+		split as you like
+
+cp contents of /boot to a temp folder
+mount EFI part to /boot
+mv the temp folder contents back into the newly mounted section
+
+mount home part to /home
+
+must run bootctl install
+
+after that add loader.conf into /boot/loader/loader.conf
+and add a arch.conf (or other entries for other OSes)

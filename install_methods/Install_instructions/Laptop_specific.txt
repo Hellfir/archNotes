@@ -6,6 +6,7 @@ Creation-Date: 2021-02-06T18:11:59+00:00
 Created Saturday 06 February 2021
 
 install acpi and acpilight
+add user to video group
 
 change backlight
 	sudo pacman -S acpilight

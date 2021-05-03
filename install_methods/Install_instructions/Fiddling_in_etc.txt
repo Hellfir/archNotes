@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-03T15:15:03+01:00
+
+====== Fiddling in etc ======
+Created Monday 03 May 2021
+
+pacman.conf
+	uncomment Color
+	enable multilib in pacman.conf (uncomment both lines)
+		[multilib]
+		Include = /etc/pacman.d/mirrorlist
+
+fstab
+	add shares
+		//[host]/[share name] [mnt path] _netdev,nofail,uid=1000,gid=1000,dir_mode=0755,file_mode=0644 0 0
+		add "credentials=[path to creds file]" to add credentials
+	archinstallscripts package has the nice "genfstab" tool, which is good for physically connected media	
+	
+hosts
+	give names to devices on network to SSH into/other things
+	eg
+		192.168.1.190 index.pi Pi
+
+The following were set during main install:
+	locale.conf	
+	localtime
+	locale.gen
+	hostname
+		set device hostname
+
+environment
+	sets environment variables when in a graphical interface eg wayland/x11
+	(might only be wayland)
+	notable lines to add:
+		MOZ_ENABLE_WAYLAND=1
+			for firefox on wayland, few fixes
+		QT_IM_MODULE=fcitx
+		XMODIFIERS=@im=fcitx
+		GTK_IM_MODULE=fcitx
+			used for fcitx compatibility 
+		XDG_CURRENT_DESKTOP=sway
+		GLFW_IM_MODULE=ibus
+			use this if using fcitx5 and kitty terminal
+
